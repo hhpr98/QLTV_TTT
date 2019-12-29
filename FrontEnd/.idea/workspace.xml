@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41ab6685-8407-49ee-8157-74dbe8bca6c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/book-management.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +14,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
   </component>
   <component name="ProjectId" id="1VfvGEWbJbbTNyKoFK8IMDCacIe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -62,7 +58,7 @@
       <workItem from="1577234752380" duration="167000" />
       <workItem from="1577655192002" duration="34000" />
       <workItem from="1577655276951" duration="774000" />
-      <workItem from="1577656871109" duration="1497000" />
+      <workItem from="1577656871109" duration="2052000" />
     </task>
     <servers />
   </component>

@@ -22,7 +22,7 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Material Dashboard by Creative Tim
+        Quản lí thư viện
     </title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
@@ -43,8 +43,8 @@
           Tip 2: you can also add an image using data-image tag
       -->
         <div class="logo">
-            <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-                Creative Tim
+            <a href="http://www.quanlithuvien.com" class="simple-text logo-normal">
+                Quản lí thư viện
             </a>
         </div>
         <div class="sidebar-wrapper">
@@ -52,11 +52,11 @@
                 <li class="nav-item active  ">
                     <a class="nav-link" href="/">
                         <i class="material-icons">dashboard</i>
-                        <p>Dashboard</p>
+                        <p>Trang chủ</p>
                     </a>
                 </li>
                 <li class="nav-item  ">
-                    <a class="nav-link" href="/">
+                    <a class="nav-link" href="/book-management">
                         <i class="material-icons">dashboard</i>
                         <p>Quản lí sách</p>
                     </a>
@@ -129,7 +129,7 @@
         <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
             <div class="container-fluid">
                 <div class="navbar-wrapper">
-                    <a class="navbar-brand" href="#pablo">Dashboard</a>
+                    <a class="navbar-brand" href="/{{redirectPage}}">{{namePage}}</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="sr-only">Toggle navigation</span>
@@ -140,7 +140,7 @@
                 <div class="collapse navbar-collapse justify-content-end">
                     <form class="navbar-form">
                         <div class="input-group no-border">
-                            <input type="text" value="" class="form-control" placeholder="Search...">
+                            <input type="text" value="" class="form-control" placeholder="Tìm kiếm...">
                             <button type="submit" class="btn btn-white btn-round btn-just-icon">
                                 <i class="material-icons">search</i>
                                 <div class="ripple-container"></div>
@@ -149,7 +149,7 @@
                     </form>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#pablo">
+                            <a class="nav-link" href="#">
                                 <i class="material-icons">dashboard</i>
                                 <p class="d-lg-none d-md-block">
                                     Stats
