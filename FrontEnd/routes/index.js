@@ -14,4 +14,8 @@ router.get('/profile', function (req, res, next) {
   res.render('profile',{redirectPage:'profile',namePage:'Thông tin tài khoản'});
 });
 
+router.get('/maps', function (req, res, next) {
+  res.render('maps',{redirectPage:'maps',namePage:'Bản đồ'});
+});
+
 module.exports = router;
