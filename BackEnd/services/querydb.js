@@ -8,4 +8,6 @@ var db = mysql.createConnection({
   password: 'uC4!kS3%'
 })
 
+console.log('Database connection successful')
+
 module.exports = util.promisify(db.query).bind(db);;

@@ -14,8 +14,10 @@ app.get('/', function (req, res) {
 
 // Route
 const bookRoute = require('./routes/book')
+const authRoute = require('./routes/author')
 
 app.use('/api/book', bookRoute)
+app.use('/api/author', authRoute)
 
 const PORT = process.env.PORT || 4200;
 app.listen(PORT, function () {
