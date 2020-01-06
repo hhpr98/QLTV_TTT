@@ -31,21 +31,22 @@
                         </th>
                         </thead>
                         <tbody>
+                        {{#each datBook}}
                         <tr>
                             <td>
-                                1
+                                {{this.id}}
                             </td>
                             <td>
-                                Dakota Rice
+                                {{this.name}}
                             </td>
                             <td>
-                                Niger
+                                {{this.author}}
                             </td>
                             <td>
-                                Oud-Turnhout
+                                {{this.type}}
                             </td>
                             <td>
-                                $36,738
+                                {{this.NXB}}
                             </td>
                            
                             <td>       
@@ -53,6 +54,7 @@
                                       <button type="button" class="btn btn-danger">Xóa</button>      
                              </td>
                         </tr>
+                        {{/each}}
                        
                        
                         </tr>

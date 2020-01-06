@@ -9,7 +9,12 @@ router.get('/', function(req, res, next) {
   res.render('index',{redirectPage:'',namePage:'Trang chủ'});
 });
 
-//var dat =
+var datBook = [
+        {"id":1,"name":"Nhập môn lập trình","author":"KHTN","type":"Sách giáo khoa","NXB":"KHTN"},
+        {"id":2,"name":"Kĩ thuật lập trình","author":"KHTN","type":"Sách giáo khoa","NXB":"KHTN"},
+        {"id":3,"name":"Dorenmon tập 111","author":"unknow","type":"Truyện tranh","NXB":"Kim Đồng"},
+        {"id":4,"name":"Nghìn lẻ một đêm","author":"unknow","type":"Truyện","NXB":"unknow"},
+        ];
 
 router.get('/book-management', function(req, res, next) {
   /*
@@ -24,7 +29,9 @@ router.get('/book-management', function(req, res, next) {
   });
    */
 
-  res.render('book-management',{redirectPage:'book-management',namePage:'Quản lí sách'});
+  //Window.alert("111")
+  console.log(datBook);
+  res.render('book-management',{redirectPage:'book-management',namePage:'Quản lí sách',datBook:datBook});
 });
 
 
